@@ -79,7 +79,9 @@ pyinstaller --noconfirm --onefile --name NflStatDeepdiver passingstats.py
 The binary will be in the `dist/` directory.
 
 ####################################################################################################
-This application complies with Sports-Reference's clauses concerning bot's and scrapers. Thank you for understanding. 
+
+
+This application complies with Sports-Reference's clauses concerning bot's and scrapers. Due to this, some features are limited. Thank you for understanding. 
 
 From: https://www.sports-reference.com/bot-traffic.html
 
