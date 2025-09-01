@@ -1,6 +1,19 @@
 # NFLDeepDive
 NFL Stat Deepdiver is a Python/Tkinter desktop app for exploring season-level NFL passing data. It scrapes Pro-Football-Reference, caches results, cleans/merges rows, and computes z-scores to compare players relative to their peers. Columns are sortable, and the layout adapts to pre/post-QBR eras.
 
+# Origin
+Initially, this appplication was created to answer the question: "Who had the greatest passing season ever?"
+However, context is rarely taken into consideration when asking this question, and we merely look at counting stats (yards thrown, touchdown to interception ratio, etc.)
+This takes into account performances of players in that given year when scoring players. 
+The football has changed to be more aerodynamic, the rules have changed regarding Quarterback protection and what constitutes pass interference, holding and many other factors that result in on-field production.
+This application uses statistical analysis to isolate how good a player was at passing in the context of that year, allowing users to drill-down and see how much of an outlier that passing season was.
+
+
+Was Dan Marino's 5000 yards and 48 TD's in '84 a more outstanding season than Peyton Manning's 5400 yards and 55 Touchdowns in 2013? Or maybe it was Aaron Rodger's incredibly efficent 2011 season with 122 Passer Rating? Tom Brady's 50 Touchdown to 8 Interception 2010? Maybe Patrick Mahomes??
+
+None of them :) 
+
+You must do the analysis for yourself! 
 
 ## NFL Stat Deepdiver — Passing Stats Viewer
 
@@ -58,21 +71,6 @@ Then:
 ### Data source and attribution
 Data is sourced from Pro-Football-Reference. Please review and respect their terms of use. All player stats and tables belong to their respective owners.
 
-### Project structure
-```
-NflStatDeepdiver/
-├─ cache/                   # HTML cache of fetched seasons
-└─ passingstats.py          # Tkinter app: UI, fetch, parse, compute Z-scores
-```
-
-### Roadmap ideas
-- Export filtered/sorted results to CSV
-- Persist user preferences (last year, window size, sort column)
-- Add rushing/receiving modules with shared components
-- Package into a native executable (PyInstaller)
-
-### Packaging (optional)
-Create a standalone executable for sharing on Windows/macOS/Linux using PyInstaller:
 
 ```bash
 pip install pyinstaller
@@ -81,7 +79,19 @@ pyinstaller --noconfirm --onefile --name NflStatDeepdiver passingstats.py
 
 The binary will be in the `dist/` directory.
 
-### Screenshots
-Add screenshots or a short GIF here to showcase the UI and sorting.
+####################################################################################################
+This application complies with Sports-Reference's clauses concerning bot's and scrapers. Thank you for understanding. 
 
+From: https://www.sports-reference.com/bot-traffic.html
+
+Update: May 29, 2024
+
+Sports Reference is primarily dependent on ad revenue, so we must ensure that actual people using web browsers have the best possible experience when using this site. Unfortunately, non-human traffic, ie bots, crawlers, scrapers, can overwhelm our servers with the number of requests they send us in a short amount of time. Therefore we are implementing rate limiting on the site. We will attempt to keep this page up to date with our current settings.
+
+Currently we will block users sending requests to:
+
+- FBref and Stathead sites more often than ten requests in a minute.
+- our other sites more often than twenty requests in a minute.
+- This is regardless of bot type and construction and pages accessed.
+- If you violate this rule your session will be in jail for up to a day.
 
