@@ -13,8 +13,7 @@ Was Dan Marino's 5000 yards and 48 TD's in '84 a more outstanding season than Pe
 
 None of them! It was good ol' Sonny!
 
-![alt text](https://i.postimg.cc/DyHKcshF/deepdive.png"Deepdive UI")
-
+[![deepdive.png](https://i.postimg.cc/DyHKcshF/deepdive.png)](https://postimg.cc/QHQP8FVn)
 
 ## NFL Stat Deepdiver — Passing Stats Viewer
 
