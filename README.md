@@ -11,7 +11,9 @@ This application uses statistical analysis to isolate how good a player was at p
 
 Was Dan Marino's 5000 yards and 48 TD's in '84 a more outstanding season than Peyton Manning's 5400 yards and 55 Touchdowns in 2013? Or maybe it was Aaron Rodger's incredibly efficent 2011 season with 122 Passer Rating? Tom Brady's 50 Touchdown to 8 Interception 2010? Maybe Patrick Mahomes??
 
-None of them! 
+None of them! It was good ol' Sonny!
+
+![alt text](https://i.postimg.cc/DyHKcshF/deepdive.png"Deepdive UI")
 
 
 ## NFL Stat Deepdiver — Passing Stats Viewer
